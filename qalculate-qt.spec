@@ -1,18 +1,18 @@
 Summary:	Modern desktop calculator
 Summary(pl.UTF-8):	Nowoczesny kalkulator
 Name:		qalculate-qt
-Version:	5.3.0
+Version:	5.4.0
 Release:	1
 License:	GPL
 Group:		Applications/Math
 Source0:	https://github.com/Qalculate/qalculate-qt/releases/download/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	2594c611898959b0c754df74c5d991a3
+# Source0-md5:	3f4b18b12eb3f717a30d2438591cf77f
 URL:		https://qalculate.github.io/
 BuildRequires:	Qt6Core-devel
 BuildRequires:	Qt6Gui-devel
 BuildRequires:	Qt6Network-devel
 BuildRequires:	Qt6Widgets-devel
-BuildRequires:	libqalculate-devel >= 5.3.0
+BuildRequires:	libqalculate-devel >= %{version}
 BuildRequires:	libxml2-devel
 BuildRequires:	qt6-build
 BuildRequires:	rpmbuild(macros) >= 2.000
